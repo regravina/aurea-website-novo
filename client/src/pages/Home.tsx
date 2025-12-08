@@ -27,7 +27,7 @@ export default function Home() {
       id: 1,
       title: "Oratória e Apresentações",
       description: "Domine a arte de falar em público. Desenvolva confiança e impacto em suas apresentações.",
-      image: "/oratória1.JPG",
+      image: "/curso-oratoria.jpg",
       duration: "5 semanas"
     },
     {

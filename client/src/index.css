@@ -228,6 +228,40 @@
     animation-delay: 0.9s;
   }
 
+  /* Refinamentos de Design */
+  .btn-primary {
+    @apply bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-amber-600 to-amber-700 bg-clip-text text-transparent;
+  }
+
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Focus States para Acessibilidade */
+  button:focus,
+  a:focus,
+  input:focus {
+    @apply outline-none ring-2 ring-amber-600 ring-offset-2;
+  }
+
+  /* Melhor Contraste de Texto */
+  .text-on-dark {
+    @apply text-white;
+  }
+
+  .text-on-light {
+    @apply text-gray-900;
+  }
+
   @media (min-width: 640px) {
     .container {
       padding-left: 1.5rem; /* 24px - tablet padding */

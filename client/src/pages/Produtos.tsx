@@ -116,9 +116,12 @@ export default function Produtos() {
                     <span>{curso.modules} módulos</span>
                   </div>
                   <p className="text-xs text-amber-600 font-medium mb-4">{curso.students} alunos</p>
-                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
-                    Saiba Mais
-                  </Button>
+                  <div className="space-y-2">
+                    <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                      Comprar Agora
+                    </Button>
+                    <p className="text-xs text-gray-600 text-center">Pix, Boleto ou Cartao</p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -144,9 +147,12 @@ export default function Produtos() {
                     </span>
                     <span>{ebook.format}</span>
                   </div>
-                  <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
-                    Comprar Agora
-                  </Button>
+                  <div className="space-y-2">
+                    <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                      Comprar Agora
+                    </Button>
+                    <p className="text-xs text-gray-600 text-center">Pix, Boleto ou Cartao</p>
+                  </div>
                 </div>
               </div>
             ))}

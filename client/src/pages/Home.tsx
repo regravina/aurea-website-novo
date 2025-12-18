@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Menu, X, Download } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "wouter";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   const [, navigate] = useLocation();
@@ -29,22 +30,49 @@ export default function Home() {
       id: 1,
       title: "Oratória e Apresentações",
       description: "Domine a arte de falar em público. Desenvolva confiança e impacto em suas apresentações.",
-      image: "/curso-oratoria.jpg",
+      image: "/curso-oratoria-v2.png",
       duration: "5 semanas"
     },
     {
       id: 2,
       title: "Linguística Aplicada ao Marketing - Parte 01",
       description: "Fundamentos da escrita. Aprenda as bases da linguagem, gramática aplicada e técnicas de redação clara e persuasiva.",
-      image: "/curso-linguistica-parte1.png",
+      image: "/curso-linguistica-parte1-v2.png",
       duration: "4 semanas"
     },
     {
       id: 3,
       title: "Linguística Aplicada ao Marketing - Parte 02",
       description: "Produção de textos de marketing e vendas. Crie conteúdo que converte e gera resultados reais para seu negócio.",
-      image: "/curso-linguistica-parte2.png",
+      image: "/curso-linguistica-parte2-v2.png",
       duration: "6 semanas"
+    }
+  ];
+
+  const testimonials = [
+    {
+      id: 1,
+      name: "Marina Silva",
+      role: "Empreendedora Digital",
+      content: "O curso de Oratoria transformou minha forma de apresentar meus produtos. Agora consigo capturar a atencao da audiencia desde o primeiro segundo!",
+      rating: 5,
+      image: "/avatar-1.jpg"
+    },
+    {
+      id: 2,
+      name: "Carlos Mendes",
+      role: "Gerente de Marketing",
+      content: "A Parte 02 de Linguistica Aplicada ao Marketing me ensinou tecnicas de copywriting que aumentaram minhas conversoes em 40%. Excelente conteudo!",
+      rating: 5,
+      image: "/avatar-2.jpg"
+    },
+    {
+      id: 3,
+      name: "Juliana Costa",
+      role: "Consultora de Comunicacao",
+      content: "Os e-books sobre Branding Linguistico e Estrategia de Conteudo sao referencia na minha consultoria. Recomendo para todos os meus clientes!",
+      rating: 5,
+      image: "/avatar-3.jpg"
     }
   ];
 
@@ -248,9 +276,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Testimonials Section */}
+      <Testimonials testimonials={testimonials} />
 
       {/* E-books Section */}
-      <section id="ebooks" className="py-12 md:py-20 bg-white">
+      <section id="ebooks" className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 md:mb-4 text-gray-900">
             E-books Exclusivos
@@ -453,8 +483,31 @@ export default function Home() {
         </div>
       </section>
 
+       {/* Newsletter Section */}
+      <section className="py-12 md:py-20 bg-gradient-to-r from-amber-600 to-amber-700">
+        <div className="container mx-auto px-4 text-center">
+          <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
+            Receba Dicas Exclusivas
+          </h3>
+          <p className="text-amber-50 text-lg mb-8 max-w-2xl mx-auto">
+            Inscreva-se na nossa newsletter e receba conteudo exclusivo sobre linguistica, comunicacao e marketing.
+          </p>
+          <form className="max-w-md mx-auto flex gap-2" onSubmit={(e) => { e.preventDefault(); alert('Obrigado por se inscrever!'); }}>
+            <input
+              type="email"
+              placeholder="Seu e-mail"
+              className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-amber-300"
+              required
+            />
+            <Button className="bg-white text-amber-700 hover:bg-amber-50 font-bold">
+              Inscrever
+            </Button>
+          </form>
+        </div>
+      </section>
+
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12 md:py-16">
+      <footer className="bg-gray-900 text-white py-12 md:py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-8 md:mb-12">
             <div>

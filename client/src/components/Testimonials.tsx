@@ -33,7 +33,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
               {/* Rating */}
               <div className="flex gap-1 mb-4">
                 {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star key={i} size={18} className="fill-amber-600 text-amber-600" />
+                  <Star key={i} size={18} style={{ fill: "#D4AF37", color: "#D4AF37" }} />
                 ))}
               </div>
 
@@ -44,7 +44,7 @@ export default function Testimonials({ testimonials }: TestimonialsProps) {
 
               {/* Author */}
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-amber-400 to-amber-600 rounded-full flex items-center justify-center text-white font-bold">
+                <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold" style={{ background: "linear-gradient(135deg, #D4AF37, #C9A961)" }}>
                   {testimonial.name.charAt(0)}
                 </div>
                 <div>

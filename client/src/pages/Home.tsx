@@ -461,7 +461,7 @@ export default function Home() {
       </section>
 
       {/* CTA Final Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-r from-teal-700 to-teal-800 text-white">
+      <section className="py-12 md:py-20 text-white" style={{ background: "linear-gradient(135deg, #1B7A8A, #2A9BA8)" }}>
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-6">
             Pronto para Transformar Sua Comunicação?
@@ -487,12 +487,12 @@ export default function Home() {
       </section>
 
        {/* Newsletter Section */}
-      <section className="py-12 md:py-20 bg-gradient-to-r from-yellow-600 to-yellow-700">
+      <section className="py-12 md:py-20" style={{ background: "linear-gradient(135deg, #C9A961, #D4AF37)" }}>
         <div className="container mx-auto px-4 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
             Receba Dicas Exclusivas
           </h3>
-          <p className="text-yellow-50 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
             Inscreva-se na nossa newsletter e receba conteudo exclusivo sobre linguistica, comunicacao e marketing.
           </p>
           <form className="max-w-md mx-auto flex gap-2" onSubmit={(e) => { e.preventDefault(); alert('Obrigado por se inscrever!'); }}>

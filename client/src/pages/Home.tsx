@@ -109,6 +109,15 @@ export default function Home() {
       price: null,
       status: "Em Breve"
     },
+    {
+      id: 4,
+      title: "Retórica e Oratória: a arte de cativar pessoas",
+      description: "Aprenda as técnicas de retórica e oratória para cativar, persuadir e impactar seu público com eloquência e confiança.",
+      image: "/ebook-retorica-oratoria.png",
+      price: "R$ 15,00",
+      status: "Disponível",
+      link: "https://play.google.com/books/publish/u/0/a/12529235853107641193#book/ISBN:9786501889412/review"
+    },
 
   ];
 
@@ -332,15 +341,35 @@ export default function Home() {
                       <span className="text-2xl font-bold " style={{ color: "#D4AF37" }}>{ebook.price}</span>
                     </div>
                   )}
-                  <Button 
-                    className="w-full  hover:bg-amber-700 text-white py-2 rounded-lg transition text-sm flex items-center justify-center gap-2" 
-                    style={{ backgroundColor: "#D4AF37" }}
-                    onClick={handleWhatsApp}
-                    disabled={ebook.status === "Em Breve"}
-                  >
-                    <Download className="w-4 h-4" />
-                    {ebook.status === "Em Breve" ? "Em Breve" : "Adquirir E-book"}
-                  </Button>
+                  {ebook.status === "Em Breve" ? (
+                    <Button 
+                      className="w-full  hover:bg-amber-700 text-white py-2 rounded-lg transition text-sm flex items-center justify-center gap-2" 
+                      style={{ backgroundColor: "#D4AF37" }}
+                      disabled={true}
+                    >
+                      <Download className="w-4 h-4" />
+                      Em Breve
+                    </Button>
+                  ) : ebook.link ? (
+                    <a href={ebook.link} target="_blank" rel="noopener noreferrer" className="block">
+                      <Button 
+                        className="w-full  hover:bg-amber-700 text-white py-2 rounded-lg transition text-sm flex items-center justify-center gap-2" 
+                        style={{ backgroundColor: "#D4AF37" }}
+                      >
+                        <Download className="w-4 h-4" />
+                        Comprar no Google Play
+                      </Button>
+                    </a>
+                  ) : (
+                    <Button 
+                      className="w-full  hover:bg-amber-700 text-white py-2 rounded-lg transition text-sm flex items-center justify-center gap-2" 
+                      style={{ backgroundColor: "#D4AF37" }}
+                      onClick={handleWhatsApp}
+                    >
+                      <Download className="w-4 h-4" />
+                      Adquirir E-book
+                    </Button>
+                  )}
                 </div>
               </div>
             ))}

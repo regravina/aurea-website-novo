@@ -13,6 +13,8 @@ import PaymentSuccess from "./pages/PaymentSuccess";
 import PaymentFailure from "./pages/PaymentFailure";
 import PaymentPending from "./pages/PaymentPending";
 import AdminDashboard from "./pages/AdminDashboard";
+import MyOrders from "./pages/MyOrders";
+import AdminReports from "./pages/AdminReports";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -26,6 +28,8 @@ function Router() {
       <Route path={"/payment-success"} component={PaymentSuccess} />
       <Route path={"/payment-failure"} component={PaymentFailure} />
       <Route path={"/payment-pending"} component={PaymentPending} />
+      <Route path={"/my-orders"} component={MyOrders} />
+      <Route path={"/admin/reports"} component={AdminReports} />
       <Route path={"/admin"} component={AdminDashboard} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}

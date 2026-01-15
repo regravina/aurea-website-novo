@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { createOrder, getOrderByMercadopagoId, updateOrderStatus, getProductById } from './db';
 import { ENV } from './_core/env';
+import { sendEbookEmail } from './email';
 
 const MERCADOPAGO_API_URL = 'https://api.mercadopago.com/v1';
 
@@ -130,6 +131,23 @@ export async function processMercadopagoWebhook(data: any) {
           customerEmail: payment.payer?.email,
           customerName: payment.payer?.first_name,
         });
+      }
+
+      // Send e-book by email if payment is approved
+      if (orderStatus === 'approved' && payment.payer?.email && product.downloadUrl) {
+        try {
+          await sendEbookEmail({
+            customerEmail: payment.payer.email,
+            customerName: payment.payer.first_name || 'Cliente',
+            ebookTitle: product.title,
+            ebookUrl: product.downloadUrl,
+            downloadLink: product.downloadUrl,
+          });
+          console.log('[MercadoPago] E-book sent successfully to:', payment.payer.email);
+        } catch (emailError) {
+          console.error('[MercadoPago] Failed to send e-book email:', emailError);
+          // Don't throw - payment was successful, email failure shouldn't block it
+        }
       }
 
       console.log('[MercadoPago] Webhook processed successfully:', {

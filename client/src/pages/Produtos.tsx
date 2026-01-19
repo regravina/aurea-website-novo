@@ -103,7 +103,8 @@ export default function Produtos() {
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">Cursos</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {cursos.map((curso) => (
-              <div key={curso.id} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition">
+              <div key={curso.id} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
+                <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
                 <img src={curso.image} alt={curso.title} className="w-full h-48 object-cover rounded-t-2xl" />
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-gray-900 mb-2">{curso.title}</h4>
@@ -117,10 +118,10 @@ export default function Produtos() {
                   </div>
                   <p className="text-xs text-amber-600 font-medium mb-4">{curso.students} alunos</p>
                   <div className="space-y-2">
-                    <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
-                      Comprar Agora
+                    <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
+                      Em Breve
                     </Button>
-                    <p className="text-xs text-gray-600 text-center">Pix, Boleto ou Cartao</p>
+                    <p className="text-xs text-gray-600 text-center">Disponível em breve</p>
                   </div>
                 </div>
               </div>
@@ -135,7 +136,8 @@ export default function Produtos() {
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">E-books</h3>
           <div className="grid md:grid-cols-3 gap-8">
             {ebooks.map((ebook) => (
-              <div key={ebook.id} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition">
+              <div key={ebook.id} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
+                <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
                 <img src={ebook.image} alt={ebook.title} className="w-full h-64 object-cover rounded-t-2xl" />
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-gray-900 mb-2">{ebook.title}</h4>
@@ -148,10 +150,10 @@ export default function Produtos() {
                     <span>{ebook.format}</span>
                   </div>
                   <div className="space-y-2">
-                    <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
-                      Comprar Agora
+                    <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
+                      Em Breve
                     </Button>
-                    <p className="text-xs text-gray-600 text-center">Pix, Boleto ou Cartao</p>
+                    <p className="text-xs text-gray-600 text-center">Disponível em breve</p>
                   </div>
                 </div>
               </div>

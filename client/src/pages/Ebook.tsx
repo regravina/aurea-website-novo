@@ -122,6 +122,59 @@ export default function Ebook() {
         </div>
       </section>
 
+      {/* E-books Em Breve Section */}
+      <section className="py-12 md:py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-900">
+            Outros E-books em Breve
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
+              <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
+              <div className="w-full h-64 bg-gradient-to-br from-blue-200 to-blue-100 flex items-center justify-center">
+                <span className="text-blue-600 text-4xl font-bold">📚</span>
+              </div>
+              <div className="p-6">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Comunicação Persuasiva</h4>
+                <p className="text-gray-700 text-sm mb-4">Descubra os segredos da comunicação que influencia decisões. Técnicas práticas e estratégias comprovadas.</p>
+                <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
+                  Em Breve
+                </Button>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
+              <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
+              <div className="w-full h-64 bg-gradient-to-br from-green-200 to-green-100 flex items-center justify-center">
+                <span className="text-green-600 text-4xl font-bold">📊</span>
+              </div>
+              <div className="p-6">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Estratégia de Conteúdo</h4>
+                <p className="text-gray-700 text-sm mb-4">Planeje e execute uma estratégia de conteúdo que atrai, engaja e converte seu público-alvo.</p>
+                <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
+                  Em Breve
+                </Button>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
+              <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
+              <div className="w-full h-64 bg-gradient-to-br from-purple-200 to-purple-100 flex items-center justify-center">
+                <span className="text-purple-600 text-4xl font-bold">✨</span>
+              </div>
+              <div className="p-6">
+                <h4 className="text-xl font-bold text-gray-900 mb-2">Branding Linguístico</h4>
+                <p className="text-gray-700 text-sm mb-4">Use a linguagem como ferramenta estratégica para construir uma marca memorável e diferenciada.</p>
+                <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
+                  Em Breve
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4 text-center">

@@ -215,6 +215,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contato Section */}
+      <section id="contato" className="py-12 md:py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+            Entre em Contato
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "#D4AF37" }}>
+                <Phone className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">WhatsApp</h3>
+              <a href="https://wa.me/5548988274343" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 transition">
+                +55 (48) 98827-4343
+              </a>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "#D4AF37" }}>
+                <Mail className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">E-mail</h3>
+              <a href="mailto:contato@aureacommkt.com" className="text-gray-700 hover:text-gray-900 transition">
+                contato@aureacommkt.com
+              </a>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: "#D4AF37" }}>
+                <MapPin className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-lg font-bold text-gray-900 mb-2">Localização</h3>
+              <p className="text-gray-700">
+                Florianópolis, SC
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">

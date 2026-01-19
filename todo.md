@@ -32,3 +32,12 @@
 - [x] Criar página /ebook com apenas "Retórica e Oratória"
 - [x] Atualizar link do Google Play com URL correta
 - [x] Testar em múltiplos navegadores e dispositivos
+
+## Fase 6: Ajustes Finais Solicitados
+- [x] Adicionar badge "EM BREVE" em PRODUTOS
+- [x] Adicionar badge "EM BREVE" em CURSOS
+- [x] Adicionar badge "EM BREVE" em E-BOOKS (página /ebook)
+- [x] Adicionar foto de Regina na página SOBRE
+- [x] Corrigir link CONTATO para ir ao final da landing page
+- [x] Testar mudanças
+- [ ] Salvar checkpoint final

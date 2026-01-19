@@ -28,9 +28,11 @@ export default function Sobre() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Foto */}
             <div className="flex justify-center">
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-gray-200 rounded-2xl flex items-center justify-center">
-                <span className="text-gray-500 text-center">Foto da Professora</span>
-              </div>
+              <img 
+                src="/regina.jpg" 
+                alt="Regina Gravina" 
+                className="w-64 h-64 md:w-80 md:h-80 rounded-2xl object-cover shadow-lg"
+              />
             </div>
 
             {/* Conteúdo */}

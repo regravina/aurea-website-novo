@@ -236,8 +236,8 @@ export default function Home() {
                 <Mail className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">E-mail</h3>
-              <a href="mailto:contato@aureacommkt.com" className="text-gray-700 hover:text-gray-900 transition">
-                contato@aureacommkt.com
+              <a href="mailto:aureacommkt@gmail.com" className="text-gray-700 hover:text-gray-900 transition">
+                aureacommkt@gmail.com
               </a>
             </div>
             <div className="text-center">

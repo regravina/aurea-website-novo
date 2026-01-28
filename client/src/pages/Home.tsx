@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Menu, X } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Menu, X, Twitter } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "wouter";
 
@@ -291,7 +291,21 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center text-sm gap-4">
               <p>&copy; 2025 AUREA COMMKT. Todos os direitos reservados.</p>
-              <div className="flex gap-6">
+              <div className="flex gap-6 items-center">
+                <a href="https://www.instagram.com/aurea_commkt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition" style={{ color: "#D4AF37" }} title="Instagram">
+                  <Instagram size={20} />
+                </a>
+                <a href="https://www.tiktok.com/@aurea_commkt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition" style={{ color: "#D4AF37" }} title="TikTok">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v13.67a2.4 2.4 0 1 1-2.4-2.4c.34 0 .67.03 1 .1V9.81a7.81 7.81 0 0 0-1-.1A7.81 7.81 0 0 0 5 21.81a7.81 7.81 0 0 0 7.81-7.81V11a10.25 10.25 0 0 0 6.08 2v-3.66a4.83 4.83 0 0 1-.3-.04z"/>
+                  </svg>
+                </a>
+                <a href="https://www.reddit.com/user/Aurea_ComMkt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition" style={{ color: "#D4AF37" }} title="Reddit">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5s10.5 4.7 10.5 10.5-4.7 10.5-10.5 10.5zm3.5-10.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 9 8.5 9 7 9.67 7 10.5s.67 1.5 1.5 1.5zm3.5 6c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z"/>
+                  </svg>
+                </a>
+                <span className="text-gray-600">|</span>
                 <a href="#" className="transition" style={{ color: "#D4AF37" }}>Política de Privacidade</a>
                 <a href="#" className="transition" style={{ color: "#D4AF37" }}>Termos de Uso</a>
               </div>

@@ -240,6 +240,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Vídeos Section */}
+      <section id="videos" className="py-12 md:py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 md:mb-4 text-gray-900">
+            Nossos Vídeos
+          </h2>
+          <p className="text-center text-gray-700 text-base md:text-lg mb-8 md:mb-12 max-w-2xl mx-auto">
+            Assista aos nossos vídeos sobre comunicação, marketing e desenvolvimento profissional.
+          </p>
+
+          {/* YouTube Playlist Embed */}
+          <div className="flex justify-center">
+            <div className="w-full max-w-4xl">
+              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                  src="https://www.youtube.com/embed/videoseries?list=UCndo5yUiK8ZQY9rt-wzaDqg"
+                  title="AUREA YouTube Playlist"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contato Section */}
       <section id="contato" className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-4">

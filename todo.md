@@ -86,3 +86,9 @@
 - [ ] Criar dashboard de analytics
 - [ ] Testar rastreamento
 - [ ] Documentar métricas
+
+## Fase 12: Seção de Vídeos YouTube
+- [x] Criar componente de seção de vídeos com embed de playlist
+- [x] Integrar na página Home
+- [x] Testar embed de playlist do YouTube
+- [ ] Salvar checkpoint

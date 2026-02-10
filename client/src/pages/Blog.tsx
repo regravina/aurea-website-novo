@@ -4,23 +4,23 @@ import { Button } from "@/components/ui/button";
 import { useLocation } from "wouter";
 
 const articleContent = {
-  1: "A Era da Decisao marca uma transformacao profunda em como as organizacoes operam. Nao se trata apenas de ter dados, mas de transformar informacoes estruturadas em decisoes estrategicas que geram resultados reais.\n\n## O Desafio da Sobrecarga de Informacao\n\nVivemos em uma epoca onde dados sao gerados constantemente. Mas ter dados nao significa ter conhecimento. O verdadeiro desafio esta em filtrar, analisar e extrair insights significativos dessa montanha de informacoes.\n\nMuitas organizacoes ainda dependem de feeling ou intuicao para tomar decisoes importantes. Isso funciona em pequena escala, mas nao e escalavel nem sustentavel.\n\n## O Caminho para a Democracia Analitica\n\nA democracia analitica significa que TODOS na organizacao tem acesso a dados e podem tomar decisoes baseadas em evidencias, nao apenas os executivos.\n\nIsso requer:\n- Infraestrutura de dados robusta\n- Ferramentas acessiveis para analise\n- Cultura de questionamento e validacao\n- Treinamento em literacia de dados\n\n## Conclusao\n\nA Era da Decisao nao e sobre tecnologia. E sobre pessoas, processos e cultura. Quando alinhados, transformam dados em poder real de negocio.",
+  1: "A Era da Decisão marca uma transformação profunda em como as organizações operam. Não se trata apenas de ter dados, mas de transformar informações estruturadas em decisões estratégicas que geram resultados reais.\n\n## O Desafio da Sobrecarga de Informação\n\nVivemos em uma época onde dados são gerados constantemente. Mas ter dados não significa ter conhecimento. O verdadeiro desafio está em filtrar, analisar e extrair insights significativos dessa montanha de informações.\n\nMuitas organizações ainda dependem de \"feeling\" ou intuição para tomar decisões importantes. Isso funciona em pequena escala, mas não é escalável nem sustentável.\n\n## O Caminho para a Democracia Analítica\n\nA democracia analítica significa que TODOS na organização têm acesso a dados e podem tomar decisões baseadas em evidências, não apenas os executivos.\n\nIsso requer:\n- Infraestrutura de dados robusta\n- Ferramentas acessíveis para análise\n- Cultura de questionamento e validação\n- Treinamento em literacia de dados\n\n## Conclusão\n\nA Era da Decisão não é sobre tecnologia. É sobre pessoas, processos e cultura. Quando alinhados, transformam dados em poder real de negócio.",
   
-  2: "Portugues para Concursos nao precisa ser complicado. Este guia apresenta as regras essenciais que aparecem em 90% das provas de nivel medio.\n\n## Ortografia Essencial\n\n### Uso de S, SS, C e CC\n- Palavras terminadas em -oso: gracioso, generoso\n- Palavras com -ssao: discussao, impressao\n- Palavras com -acao: criacao, recepcao\n\n### Acentuacao\n- Proparoxitonas: SEMPRE levam acento (criatura, vantagem)\n- Paroxitonas: levam acento em casos especificos (onibus, taxi)\n- Oxitonas: levam acento em terminacoes especificas (-a, -e, -o)\n\n## Novo Acordo Ortografico\n\nO novo acordo de 1990 trouxe mudancas importantes:\n- Eliminacao do trema em palavras como linguistica\n- Mudancas em palavras com hifen\n- Simplificacao de algumas acentuacoes\n\n## Dicas Praticas para Provas\n\n1. Leia o texto completo antes de responder\n2. Procure por palavras-chave que indicam a resposta\n3. Elimine opcoes obviamente erradas\n4. Quando em duvida, escolha a opcao mais formal\n\n## Conclusao\n\nDominando essas regras basicas, voce estara preparado para a maioria das questoes de Portugues em concursos publicos.",
+  2: "Português para Concursos não precisa ser complicado. Este guia apresenta as regras essenciais que aparecem em 90% das provas de nível médio.\n\n## Ortografia Essencial\n\n### Uso de S, SS, C e CC\n- Palavras terminadas em -oso: gracioso, generoso\n- Palavras com -ssão: discussão, impressão\n- Palavras com -ação: criação, recepção\n\n### Acentuação\n- Proparoxítonas: SEMPRE levam acento (criatura, vantagem)\n- Paroxítonas: levam acento em casos específicos (ônibus, táxi)\n- Oxítonas: levam acento em terminações específicas (-á, -é, -ó)\n\n## Novo Acordo Ortográfico\n\nO novo acordo de 1990 trouxe mudanças importantes:\n- Eliminação do trema em palavras como \"linguística\"\n- Mudanças em palavras com hífen\n- Simplificação de algumas acentuações\n\n## Dicas Práticas para Provas\n\n1. Leia o texto completo antes de responder\n2. Procure por palavras-chave que indicam a resposta\n3. Elimine opções obviamente erradas\n4. Quando em dúvida, escolha a opção mais formal\n\n## Conclusão\n\nDominando essas regras básicas, você estará preparado para a maioria das questões de Português em concursos públicos.",
   
-  3: "A comunicacao e uma habilidade fundamental no mundo profissional. Mas muitos nao entendem que ela vai muito alem de falar bem.\n\n## Os Tres Niveis da Comunicacao\n\n### 1. Comunicacao Verbal\nE o que voce diz. As palavras, o vocabulario, a clareza da mensagem. Uma mensagem verbal clara e concisa e fundamental.\n\n### 2. Comunicacao Vocal\nE COMO voce diz. Tom de voz, ritmo, entonacao, volume. Uma mesma frase pode ter significados completamente diferentes dependendo de como e dita.\n\n### 3. Comunicacao Corporal\nE o que seu corpo transmite. Postura, gestos, contato visual, expressao facial. Estudos mostram que 55% da comunicacao e corporal.\n\n## Os 6 Elementos do Processo Comunicativo\n\n1. Emissor: quem comunica\n2. Mensagem: o conteudo\n3. Canal: o meio (presencial, video, texto)\n4. Receptor: quem recebe\n5. Feedback: resposta do receptor\n6. Ruido: interferencias na comunicacao\n\n## Feedback Construtivo\n\nFeedback nao e critica. E um presente que voce oferece para ajudar alguem a melhorar.\n\nUm bom feedback:\n- E especifico (nao generico)\n- E timely (no momento certo)\n- E equilibrado (reconhece pontos fortes e areas de melhoria)\n- E actionable (oferece caminhos para melhorar)\n\n## Conclusao\n\nDominando esses elementos, voce se torna um comunicador eficaz em qualquer contexto.",
+  3: "A comunicação é uma habilidade fundamental no mundo profissional. Mas muitos não entendem que ela vai muito além de falar bem.\n\n## Os Três Níveis da Comunicação\n\n### 1. Comunicação Verbal\nÉ o que você diz. As palavras, o vocabulário, a clareza da mensagem. Uma mensagem verbal clara e concisa é fundamental.\n\n### 2. Comunicação Vocal\nÉ COMO você diz. Tom de voz, ritmo, entonação, volume. Uma mesma frase pode ter significados completamente diferentes dependendo de como é dita.\n\n### 3. Comunicação Corporal\nÉ o que seu corpo transmite. Postura, gestos, contato visual, expressão facial. Estudos mostram que 55% da comunicação é corporal.\n\n## Os 6 Elementos do Processo Comunicativo\n\n1. Emissor: quem comunica\n2. Mensagem: o conteúdo\n3. Canal: o meio (presencial, vídeo, texto)\n4. Receptor: quem recebe\n5. Feedback: resposta do receptor\n6. Ruído: interferências na comunicação\n\n## Feedback Construtivo\n\nFeedback não é crítica. É um presente que você oferece para ajudar alguém a melhorar.\n\nUm bom feedback:\n- É específico (não genérico)\n- É oportuno (no momento certo)\n- É equilibrado (reconhece pontos fortes e áreas de melhoria)\n- É acionável (oferece caminhos para melhorar)\n\n## Conclusão\n\nDominando esses elementos, você se torna um comunicador eficaz em qualquer contexto.",
   
-  4: "A cultura analitica nao e um destino, e uma jornada. E a evolucao de uma organizacao que passa de decisoes baseadas em intuicao para decisoes baseadas em dados.\n\n## Do Feeling para a Evidencia\n\nMuitos lideres ainda confiam em seu feeling ou intuicao. E verdade que experiencia importa, mas sem dados para validar, as decisoes sao arriscadas.\n\nA transicao para uma cultura analitica requer:\n- Mudanca de mentalidade\n- Investimento em tecnologia\n- Desenvolvimento de competencias\n- Lideranca comprometida\n\n## O Papel da IA & Data Science\n\nInteligencia Artificial e Data Science nao sao buzzwords. Sao ferramentas reais que:\n- Identificam padroes que humanos nao veem\n- Automatizam processos repetitivos\n- Predizem tendencias futuras\n- Otimizam recursos\n\n## Democracia Analitica\n\nNao e apenas sobre ter dados. E sobre DEMOCRATIZAR o acesso a dados.\n\nQuando todos na organizacao entendem dados e podem tomar decisoes baseadas em evidencias, a organizacao se torna mais agil, mais inteligente e mais competitiva.\n\n## Conclusao\n\nA cultura analitica e o diferencial competitivo do seculo 21. Organizacoes que nao evoluem nesse sentido ficam para tras.",
+  4: "A cultura analítica não é um destino, é uma jornada. É a evolução de uma organização que passa de decisões baseadas em intuição para decisões baseadas em dados.\n\n## Do \"Feeling\" para a Evidência\n\nMuitos líderes ainda confiam em seu \"feeling\" ou intuição. É verdade que experiência importa, mas sem dados para validar, as decisões são arriscadas.\n\nA transição para uma cultura analítica requer:\n- Mudança de mentalidade\n- Investimento em tecnologia\n- Desenvolvimento de competências\n- Liderança comprometida\n\n## O Papel da IA & Data Science\n\nInteligência Artificial e Data Science não são buzzwords. São ferramentas reais que:\n- Identificam padrões que humanos não veem\n- Automatizam processos repetitivos\n- Predizem tendências futuras\n- Otimizam recursos\n\n## Democracia Analítica\n\nNão é apenas sobre ter dados. É sobre DEMOCRATIZAR o acesso a dados.\n\nQuando todos na organização entendem dados e podem tomar decisões baseadas em evidências, a organização se torna mais ágil, mais inteligente e mais competitiva.\n\n## Conclusão\n\nA cultura analítica é o diferencial competitivo do século 21. Organizações que não evoluem nesse sentido ficam para trás.",
   
-  5: "Oratoria e Retorica sao disciplinas complementares que, juntas, criam comunicadores verdadeiramente persuasivos.\n\n## Retorica: A Estrategia do Discurso\n\nRetorica e a arte de persuadir atraves da linguagem. Ela estuda:\n- Como estruturar argumentos\n- Como usar figuras de linguagem\n- Como apelar para emocoes e razao\n- Como construir credibilidade\n\n## Oratoria: A Performance do Orador\n\nOratoria e a arte de falar em publico com impacto. Ela trabalha:\n- Respiracao e projecao de voz\n- Linguagem corporal\n- Gestao do nervosismo\n- Conexao com a audiencia\n\n## Os Tres Pilares de Aristoteles\n\n### 1. Ethos (Credibilidade)\nAs pessoas acreditam em quem tem credibilidade. Voce precisa demonstrar que sabe do que esta falando e que e digno de confianca.\n\n### 2. Pathos (Emocao)\nAs pessoas sao movidas por emocoes. Uma apresentacao que toca o coracao e mais memoravel que uma cheia de dados.\n\n### 3. Logos (Logica)\nMas a emocao sozinha nao basta. Voce precisa de argumentos logicos e evidencias para sustentar sua mensagem.\n\n## Pratica e Persistencia\n\nNinguem nasce orador. Oratoria e Retorica sao habilidades que se desenvolvem com pratica constante.\n\nComece pequeno, apresente para amigos, grave videos, participe de grupos de discussao. Cada apresentacao e uma oportunidade de aprender.\n\n## Conclusao\n\nQuem domina Oratoria e Retorica tem um superpoder no mundo profissional. Consegue influenciar, persuadir e inspirar pessoas. E essa e uma habilidade que nunca sai de moda."
+  5: "Oratória e Retórica são disciplinas complementares que, juntas, criam comunicadores verdadeiramente persuasivos.\n\n## Retórica: A Estratégia do Discurso\n\nRetórica é a arte de persuadir através da linguagem. Ela estuda:\n- Como estruturar argumentos\n- Como usar figuras de linguagem\n- Como apelar para emoções e razão\n- Como construir credibilidade\n\n## Oratória: A Performance do Orador\n\nOratória é a arte de falar em público com impacto. Ela trabalha:\n- Respiração e projeção de voz\n- Linguagem corporal\n- Gestão do nervosismo\n- Conexão com a audiência\n\n## Os Três Pilares de Aristóteles\n\n### 1. Ethos (Credibilidade)\nAs pessoas acreditam em quem tem credibilidade. Você precisa demonstrar que sabe do que está falando e que é digno de confiança.\n\n### 2. Pathos (Emoção)\nAs pessoas são movidas por emoções. Uma apresentação que toca o coração é mais memorável que uma cheia de dados.\n\n### 3. Logos (Lógica)\nMas a emoção sozinha não basta. Você precisa de argumentos lógicos e evidências para sustentar sua mensagem.\n\n## Prática e Persistência\n\nNinguém nasce orador. Oratória e Retórica são habilidades que se desenvolvem com prática constante.\n\nComece pequeno, apresente para amigos, grave vídeos, participe de grupos de discussão. Cada apresentação é uma oportunidade de aprender.\n\n## Conclusão\n\nQuem domina Oratória e Retórica tem um superpoder no mundo profissional. Consegue influenciar, persuadir e inspirar pessoas. E essa é uma habilidade que nunca sai de moda."
 };
 
 const articles = [
   {
     id: 1,
-    title: "A Era da Decisao: Transformando Dados em Poder de Negocio",
-    excerpt: "Descubra como transformar dados estruturados em decisoes estrategicas. Explore o desafio da sobrecarga de informacao e o caminho para a democracia analitica.",
-    category: "Analise de Dados",
+    title: "A Era da Decisão: Transformando Dados em Poder de Negócio",
+    excerpt: "Descubra como transformar dados estruturados em decisões estratégicas. Explore o desafio da sobrecarga de informação e o caminho para a democracia analítica.",
+    category: "Análise de Dados",
     author: "AUREA COMMKT",
     date: "2026-02-08",
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/AvnZmyNrFlhmFzrS.jpg",
@@ -28,9 +28,9 @@ const articles = [
   },
   {
     id: 2,
-    title: "Guia de Portugues para Concursos: Domine o Basico em 30 Dias",
-    excerpt: "Resumo visual das regras gramaticais essenciais para concursos publicos de nivel medio. Ortografia, pontuacao e novo acordo ortografico explicados de forma pratica.",
-    category: "Portugues",
+    title: "Guia de Português para Concursos: Domine o Básico em 30 Dias",
+    excerpt: "Resumo visual das regras gramaticais essenciais para concursos públicos de nível médio. Ortografia, pontuação e novo acordo ortográfico explicados de forma prática.",
+    category: "Português",
     author: "AUREA COMMKT",
     date: "2026-02-08",
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/OFZoOIzVaqnZzPsk.jpg",
@@ -38,9 +38,9 @@ const articles = [
   },
   {
     id: 3,
-    title: "Domine a Arte da Comunicacao: Do Basico ao Profissional",
-    excerpt: "Fundamentos essenciais da comunicacao: verbal, vocal e corporal. Aprenda os 6 elementos do processo comunicativo e tecnicas de feedback construtivo.",
-    category: "Comunicacao",
+    title: "Domine a Arte da Comunicação: Do Básico ao Profissional",
+    excerpt: "Fundamentos essenciais da comunicação: verbal, vocal e corporal. Aprenda os 6 elementos do processo comunicativo e técnicas de feedback construtivo.",
+    category: "Comunicação",
     author: "AUREA COMMKT",
     date: "2026-02-08",
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/AvnZmyNrFlhmFzrS.jpg",
@@ -48,9 +48,9 @@ const articles = [
   },
   {
     id: 4,
-    title: "O Poder da Cultura Analitica: Do Feeling a Inteligencia Artificial",
-    excerpt: "Entenda como evoluir de decisoes baseadas em intuicao para uma cultura analitica. Explore a democracia analitica e o papel da IA & Data Science.",
-    category: "Estrategia",
+    title: "O Poder da Cultura Analítica: Do \"Feeling\" à Inteligência Artificial",
+    excerpt: "Entenda como evoluir de decisões baseadas em intuição para uma cultura analítica. Explore a democracia analítica e o papel da IA & Data Science.",
+    category: "Estratégia",
     author: "AUREA COMMKT",
     date: "2026-02-08",
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/OFZoOIzVaqnZzPsk.jpg",
@@ -58,9 +58,9 @@ const articles = [
   },
   {
     id: 5,
-    title: "Oratoria & Retorica: A Arte de Cativar Pessoas",
-    excerpt: "Fundamentos da comunicacao persuasiva unindo estrategia do discurso (Retorica) com performance do orador (Oratoria). Os tres pilares de Aristoteles aplicados.",
-    category: "Oratoria",
+    title: "Oratória & Retórica: A Arte de Cativar Pessoas",
+    excerpt: "Fundamentos da comunicação persuasiva unindo estratégia do discurso (Retórica) com performance do orador (Oratória). Os três pilares de Aristóteles aplicados.",
+    category: "Oratória",
     author: "AUREA COMMKT",
     date: "2026-02-08",
     image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/AvnZmyNrFlhmFzrS.jpg",
@@ -68,7 +68,7 @@ const articles = [
   }
 ];
 
-const categories = ["Todos", "Analise de Dados", "Portugues", "Comunicacao", "Estrategia", "Oratoria"];
+const categories = ["Todos", "Análise de Dados", "Português", "Comunicação", "Estratégia", "Oratória"];
 
 export default function Blog() {
   const [, navigate] = useLocation();
@@ -92,7 +92,7 @@ export default function Blog() {
             Blog AUREA
           </h1>
           <p className="text-lg text-gray-700 max-w-2xl">
-            Artigos, insights e guias praticos sobre comunicacao, marketing, analise de dados e desenvolvimento profissional.
+            Artigos, insights e guias práticos sobre comunicação, marketing, análise de dados e desenvolvimento profissional.
           </p>
         </div>
       </section>
@@ -218,7 +218,7 @@ export default function Blog() {
             Quer aprofundar seus conhecimentos?
           </h2>
           <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-            Conheca nossos cursos especializados em comunicacao, marketing e desenvolvimento profissional.
+            Conheça nossos cursos especializados em comunicação, marketing e desenvolvimento profissional.
           </p>
           <Button
             onClick={() => navigate('/produtos')}

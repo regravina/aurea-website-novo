@@ -9,7 +9,7 @@ export default function Produtos() {
     {
       id: 1,
       title: "Domine o Português Básico para Concursos com Aulas Interativas!",
-      description: "Domina a Língua Portuguesa com foco em concursos públicos. Aprenda gramática, interpretação de textos e redação com técnicas comprovadas.",
+      description: "Domine a Língua Portuguesa com foco em concursos públicos. Aprenda gramática, interpretação de textos e redação com técnicas comprovadas.",
       fullDescription: "Curso completo para dominar o Português para concursos. Abrange gramática, interpretação de textos, redação e simulados. Aulas ao vivo nas terças e quintas à noite.",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/AvnZmyNrFlhmFzrS.jpg",
       price: "R$ 80,00",
@@ -23,7 +23,7 @@ export default function Produtos() {
       id: 2,
       title: "Comunicação Básica",
       description: "Fundamentos essenciais de comunicação. Aprenda técnicas de comunicação clara, persuasiva e eficaz para qualquer contexto.",
-      fullDescription: "Curso que aborda os fundamentos da comunicação: linguagem verbal e não-verbal, técnicas de apresentação, comunicação em equipe e resolução de conflitos.",
+      fullDescription: "Curso que aborda os fundamentos da comunicação: linguagem verbal e não verbal, técnicas de apresentação, comunicação em equipe e resolução de conflitos.",
       image: "https://files.manuscdn.com/user_upload_by_module/session_file/310419663030713898/OFZoOIzVaqnZzPsk.jpg",
       price: "R$ 30,00",
       duration: "Acesso por 6 meses",

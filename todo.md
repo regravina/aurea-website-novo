@@ -100,3 +100,16 @@
 - [ ] Criar páginas individuais de cada artigo
 - [ ] Testar navegação e responsividade
 - [ ] Salvar checkpoint
+
+## Fase 14: Revisão Geral de Português
+- [x] Revisar e corrigir acentuação em todas as páginas
+- [x] Revisar e corrigir pontuação em todas as páginas
+- [x] Revisar e corrigir ortografia em todas as páginas
+- [x] Revisar concordância verbal e nominal
+- [x] Corrigir conteúdo do Blog.tsx (artigos)
+- [x] Corrigir conteúdo do Home.tsx
+- [x] Corrigir conteúdo do Produtos.tsx
+- [x] Corrigir conteúdo do Sobre.tsx
+- [x] Corrigir conteúdo do FAQ.tsx
+- [x] Corrigir conteúdo de todos os componentes
+- [ ] Salvar checkpoint final com português corrigido

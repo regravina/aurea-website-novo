@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Menu, X, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Menu, X, Twitter, Star } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "wouter";
 
@@ -18,6 +18,30 @@ export default function Home() {
   const handleWhatsApp = () => {
     window.open('https://wa.me/5548988274343?text=Olá%20AUREA%20COMMKT%2C%20gostaria%20de%20saber%20mais%20sobre%20seus%20cursos%20e%20serviços.', '_blank');
   };
+
+  const testimonials = [
+    {
+      id: 1,
+      name: "Audrey Soares Rembowski",
+      profession: "Turismóloga",
+      text: "Os cursos da AUREA COMMKT transformaram minha comunicação profissional. Como turismóloga, agora consigo apresentar ideias com muito mais confiança e impacto. Técnicas práticas que funcionam de verdade!",
+      rating: 5
+    },
+    {
+      id: 2,
+      name: "Fabiane Ribeiro",
+      profession: "Administradora Pública",
+      text: "As aulas da prof. Regina no Senac foram incríveis! Aprender marketing com profundidade, gestão e estratégia mudou minha carreira. Hoje aplico tudo na Udesc. Super recomendo!",
+      rating: 5
+    },
+    {
+      id: 3,
+      name: "Thais Hoffmann",
+      profession: "Pedagoga",
+      text: "Como pedagoga, os cursos da AUREA COMMKT revolucionaram minha comunicação em sala de aula! Ferramentas práticas, conteúdo profundo e didática impecável. Recomendo muito!",
+      rating: 5
+    }
+  ];
 
   const cursos = [
     {
@@ -233,6 +257,44 @@ export default function Home() {
                   >
                     {curso.status === "Disponível" ? "Comprar Agora" : "Em Breve"}
                   </Button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Prova Social / Testimonials Section */}
+      <section id="testimonials" className="py-12 md:py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-3 md:mb-4 text-gray-900">
+            O Que Nossos Alunos Dizem
+          </h2>
+          <p className="text-center text-gray-700 text-base md:text-lg mb-12 max-w-2xl mx-auto">
+            Confira os depoimentos de profissionais que transformaram suas carreiras com nossos cursos.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {testimonials.map((testimonial) => (
+              <div key={testimonial.id} className="bg-gray-50 p-8 rounded-2xl border border-gray-200 hover:shadow-lg transition">
+                {/* Stars */}
+                <div className="flex gap-1 mb-4">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <Star key={i} size={18} className="fill-amber-400 text-amber-400" />
+                  ))}
+                </div>
+
+                {/* Quote */}
+                <p className="text-gray-700 mb-6 leading-relaxed italic">
+                  "{testimonial.text}"
+                </p>
+
+                {/* Author */}
+                <div className="border-t border-gray-200 pt-4">
+                  <p className="font-bold text-gray-900">{testimonial.name}</p>
+                  <p className="text-sm text-gray-600" style={{ color: "#D4AF37" }}>
+                    {testimonial.profession}
+                  </p>
                 </div>
               </div>
             ))}

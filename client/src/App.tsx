@@ -16,6 +16,8 @@ import AdminDashboard from "./pages/AdminDashboard";
 import MyOrders from "./pages/MyOrders";
 import AdminReports from "./pages/AdminReports";
 import Ebook from "./pages/Ebook";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsOfUse from "./pages/TermsOfUse";
 
 function Router() {
   // make sure to consider if you need authentication for certain routes
@@ -33,6 +35,8 @@ function Router() {
       <Route path={"/admin/reports"} component={AdminReports} />
       <Route path={"/admin"} component={AdminDashboard} />
       <Route path={"/ebook"} component={Ebook} />
+      <Route path={"/privacy-policy"} component={PrivacyPolicy} />
+      <Route path={"/terms-of-use"} component={TermsOfUse} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

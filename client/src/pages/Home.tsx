@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Menu, X, Twitter, Star } from "lucide-react";
 import { useState } from "react";
 import { useLocation } from "wouter";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export default function Home() {
   const [, navigate] = useLocation();
@@ -368,6 +369,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Newsletter Section */}
+      <section id="newsletter" className="py-12 md:py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Fique por Dentro das Novidades</h2>
+            <p className="text-gray-300 text-base md:text-lg mb-8">
+              Inscreva-se em nossa newsletter e receba notícias sobre novos cursos, conteúdos exclusivos e dicas de comunicação e marketing.
+            </p>
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20">
+              <NewsletterForm />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-4">
@@ -389,9 +405,9 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-4" style={{ color: "#D4AF37" }}>Suporte</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition">FAQ</a></li>
-                <li><a href="#" className="hover:text-white transition">Política de Privacidade</a></li>
-                <li><a href="#" className="hover:text-white transition">Termos de Uso</a></li>
+                <li><button onClick={() => navigate('/faq')} className="hover:text-white transition">FAQ</button></li>
+                <li><a href="/privacy-policy" className="hover:text-white transition">Política de Privacidade</a></li>
+                <li><a href="/terms-of-use" className="hover:text-white transition">Termos de Uso</a></li>
               </ul>
             </div>
             <div>
@@ -421,8 +437,8 @@ export default function Home() {
                   </svg>
                 </a>
                 <span className="text-gray-600">|</span>
-                <a href="#" className="transition" style={{ color: "#D4AF37" }}>Política de Privacidade</a>
-                <a href="#" className="transition" style={{ color: "#D4AF37" }}>Termos de Uso</a>
+                <a href="/privacy-policy" className="transition" style={{ color: "#D4AF37" }}>Política de Privacidade</a>
+                <a href="/terms-of-use" className="transition" style={{ color: "#D4AF37" }}>Termos de Uso</a>
               </div>
             </div>
           </div>

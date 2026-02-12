@@ -113,3 +113,12 @@
 - [x] Corrigir conteúdo do FAQ.tsx
 - [x] Corrigir conteúdo de todos os componentes
 - [ ] Salvar checkpoint final com português corrigido
+
+## Fase 15: Páginas Legais e Newsletter
+- [x] Criar página de Política de Privacidade
+- [x] Criar página de Termos de Uso
+- [x] Implementar formulário de Newsletter
+- [ ] Integrar Newsletter com tRPC para capturar emails
+- [x] Adicionar validação de email no formulário
+- [x] Testar formulário de Newsletter
+- [ ] Salvar checkpoint com páginas legais e Newsletter

@@ -427,11 +427,18 @@ export default function Home() {
             </div>
             <div>
               <h4 className="font-bold mb-4" style={{ color: "#D4AF37" }}>Contato</h4>
-              <p className="text-sm text-gray-400">
-                <a href="https://wa.me/5548988274343" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
-                  WhatsApp: +55 48 98827-4343
-                </a>
-              </p>
+              <ul className="space-y-2 text-sm text-gray-400">
+                <li>
+                  <a href="https://wa.me/5548988274343" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
+                    WhatsApp: +55 48 98827-4343
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:support@aurea.commkt.com" className="hover:text-white transition">
+                    E-mail: support@aurea.commkt.com
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8">

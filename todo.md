@@ -143,3 +143,13 @@
 - [x] Rastrear conversões de Newsletter
 - [x] Rastrear visualizações de páginas
 - [x] Integrar analytics no App.tsx
+
+## Fase 19: Sistema de Vendas e Preços
+- [ ] Criar email de suporte (support@aurea.commkt.com)
+- [ ] Implementar sistema de preços dinâmicos
+- [ ] Adicionar promoção de e-book (R$ 15 até 15/03)
+- [ ] Otimizar páginas de produto com preços
+- [ ] Criar landing pages para cada curso
+- [ ] Implementar rastreamento de conversão
+- [ ] Criar estratégia de anúncios pagos (R$ 1.000 budget)
+- [ ] Salvar checkpoint com sistema de vendas completo

@@ -4,6 +4,13 @@ import { useLocation } from "wouter";
 
 export default function Ebook() {
   const [, navigate] = useLocation();
+  
+  // Check if promotional pricing is active (until March 15, 2025)
+  const today = new Date();
+  const promotionEnd = new Date(2025, 2, 15); // March 15, 2025
+  const isPromotionActive = today <= promotionEnd;
+  const regularPrice = 60;
+  const promotionalPrice = 15;
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -48,9 +55,25 @@ export default function Ebook() {
               </p>
 
               <div className="mb-8">
-                <div className="text-4xl font-bold mb-2" style={{ color: "#D4AF37" }}>
-                  R$ 60,00
-                </div>
+                {isPromotionActive ? (
+                  <>
+                    <div className="flex items-center gap-4 mb-2">
+                      <div className="text-4xl font-bold" style={{ color: "#D4AF37" }}>
+                        R$ {promotionalPrice},00
+                      </div>
+                      <div className="text-xl text-gray-400 line-through">
+                        R$ {regularPrice},00
+                      </div>
+                    </div>
+                    <div className="inline-block bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-2">
+                      🎉 Promoção de Lançamento até 15/03
+                    </div>
+                  </>
+                ) : (
+                  <div className="text-4xl font-bold mb-2" style={{ color: "#D4AF37" }}>
+                    R$ {regularPrice},00
+                  </div>
+                )}
                 <p className="text-gray-600">Disponível no Hotmart</p>
               </div>
 

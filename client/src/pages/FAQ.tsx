@@ -12,25 +12,25 @@ export default function FAQ() {
       id: 1,
       category: "Cursos",
       question: "Como funciona o acesso aos cursos?",
-      answer: "Após a compra, você recebe acesso imediato à plataforma com todos os módulos. Pode assistir aos vídeos, fazer os exercícios e acompanhar o seu progresso em seu próprio ritmo."
+      answer: "Nossos cursos são 100% ao vivo! Após a compra, você recebe acesso imediato à plataforma e ao grupo de alunos no WhatsApp. As aulas acontecem em dias e horários específicos (terças e quintas-feiras). Você também tem acesso às aulas gravadas para revisar quando quiser."
     },
     {
       id: 2,
       category: "Cursos",
       question: "Qual é a duração dos cursos?",
-      answer: "Os cursos variam de 4 a 6 semanas, dependendo do programa. Você pode completar em seu próprio ritmo, sem prazos rígidos."
+      answer: "Os cursos variam de 4 a 6 semanas de aulas ao vivo. Cada semana tem 2 aulas (terça e quinta). Após o término, você mantém acesso às gravações por 6 meses para revisar o conteúdo quantas vezes quiser."
     },
     {
       id: 3,
       category: "Cursos",
       question: "Há certificado ao final do curso?",
-      answer: "Sim! Ao completar todos os módulos e atividades, você recebe um certificado de conclusão que pode ser compartilhado em seu currículo e redes sociais."
+      answer: "Sim! Ao completar todas as aulas e atividades, você recebe um certificado de conclusão que pode ser compartilhado em seu currículo e redes sociais."
     },
     {
       id: 4,
       category: "Cursos",
       question: "Posso fazer os cursos em qualquer dispositivo?",
-      answer: "Sim, nossa plataforma é totalmente responsiva e funciona em computadores, tablets e smartphones."
+      answer: "Sim! As aulas ao vivo funcionam em computadores, tablets e smartphones. Você pode participar de qualquer lugar com internet."
     },
     {
       id: 5,
@@ -67,6 +67,30 @@ export default function FAQ() {
       category: "Geral",
       question: "Há suporte ao cliente disponível?",
       answer: "Sim! Você pode entrar em contato conosco via WhatsApp, e-mail ou formulário de contato. Respondemos em até 24 horas."
+    },
+    {
+      id: 11,
+      category: "Cursos",
+      question: "E se eu perder uma aula ao vivo?",
+      answer: "Sem problema! Todas as aulas são gravadas e disponibilizadas na plataforma. Você pode assistir quando tiver tempo, com acesso por 6 meses após o término do curso."
+    },
+    {
+      id: 12,
+      category: "Cursos",
+      question: "Posso fazer perguntas durante as aulas ao vivo?",
+      answer: "Claro! As aulas ao vivo são interativas. Você pode fazer perguntas em tempo real, tirar dúvidas e participar das discussões com outros alunos e com a Regina."
+    },
+    {
+      id: 13,
+      category: "Cursos",
+      question: "Qual é o horário das aulas ao vivo?",
+      answer: "As aulas acontecem todas as terças e quintas-feiras. Os horários específicos serão informados no seu email de confirmação e no grupo do WhatsApp dos alunos."
+    },
+    {
+      id: 14,
+      category: "Cursos",
+      question: "Como funciona o grupo de alunos no WhatsApp?",
+      answer: "O grupo do WhatsApp é um espaço para você se conectar com outros alunos, tirar dúvidas entre aulas, compartilhar experiências e receber lembretes sobre as aulas ao vivo."
     }
   ];
 
@@ -101,7 +125,7 @@ export default function FAQ() {
             Perguntas Frequentes
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto">
-            Encontre respostas para as dúvidas mais comuns sobre nossos cursos, e-books e formas de pagamento.
+            Encontre respostas para as dúvidas mais comuns sobre nossos cursos ao vivo, e-books e formas de pagamento.
           </p>
         </div>
       </section>
@@ -169,8 +193,9 @@ export default function FAQ() {
             Entre em contato conosco via WhatsApp e nossa equipe terá prazer em ajudar.
           </p>
           <Button 
-            onClick={() => window.open('https://wa.me/5511999999999?text=Olá%20AUREA%20COMMKT%2C%20tenho%20uma%20dúvida', '_blank')}
-            className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3"
+            onClick={() => window.open('https://wa.me/5548988274343?text=Olá%20AUREA%20COMMKT%2C%20tenho%20uma%20dúvida', '_blank')}
+            className="text-white px-8 py-3"
+            style={{ backgroundColor: "#D4AF37" }}
           >
             Fale Conosco via WhatsApp
           </Button>

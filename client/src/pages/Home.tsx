@@ -453,6 +453,11 @@ export default function Home() {
                     <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v13.67a2.4 2.4 0 1 1-2.4-2.4c.34 0 .67.03 1 .1V9.81a7.81 7.81 0 0 0-1-.1A7.81 7.81 0 0 0 5 21.81a7.81 7.81 0 0 0 7.81-7.81V11a10.25 10.25 0 0 0 6.08 2v-3.66a4.83 4.83 0 0 1-.3-.04z"/>
                   </svg>
                 </a>
+                <a href="https://www.youtube.com/@aureacommkt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition" style={{ color: "#D4AF37" }} title="YouTube">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                  </svg>
+                </a>
                 <a href="https://www.reddit.com/user/Aurea_ComMkt" target="_blank" rel="noopener noreferrer" className="hover:text-white transition" style={{ color: "#D4AF37" }} title="Reddit">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 22.5C6.2 22.5 1.5 17.8 1.5 12S6.2 1.5 12 1.5s10.5 4.7 10.5 10.5-4.7 10.5-10.5 10.5zm3.5-10.5c.83 0 1.5-.67 1.5-1.5s-.67-1.5-1.5-1.5-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 9 8.5 9 7 9.67 7 10.5s.67 1.5 1.5 1.5zm3.5 6c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5z"/>

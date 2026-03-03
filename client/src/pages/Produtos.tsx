@@ -50,30 +50,36 @@ export default function Produtos() {
   const ebooks = [
     {
       id: 1,
-      title: "Comunicação Persuasiva",
+      title: "Imersão em IA para Empresas - Volume 1",
       description: "Descubra os segredos da comunicação que influencia decisões. Técnicas práticas e estratégias comprovadas.",
       fullDescription: "Um guia completo sobre os princípios da persuasão, técnicas de linguagem e estratégias para influenciar decisões. Ideal para profissionais, empreendedores e comunicadores.",
       image: "/ebooks/aurea_ia_vol1.png",
       pages: 120,
-      format: "PDF"
+      format: "PDF",
+      price: "R$ 27,00",
+      link: "https://mpago.la/2aESkDx"
     },
     {
       id: 2,
-      title: "Estratégia de Conteúdo",
+      title: "Imersão em IA para Empresas - Volume 2",
       description: "Planeje e execute uma estratégia de conteúdo que atrai, engaja e converte seu público-alvo.",
       fullDescription: "Aprenda a criar um plano de conteúdo estratégico, identificar seu público-alvo, definir temas e medir resultados. Essencial para quem quer crescer através do marketing de conteúdo.",
       image: "/ebooks/aurea_ia_vol2.png",
       pages: 150,
-      format: "PDF"
+      format: "PDF",
+      price: "R$ 27,00",
+      link: "https://mpago.la/1fL1RQb"
     },
     {
       id: 3,
-      title: "Branding Linguístico",
+      title: "Imersão em IA para Empresas - Volume 3",
       description: "Use a linguagem como ferramenta estratégica para construir uma marca memorável e diferenciada.",
       fullDescription: "Descubra como a linguagem define sua marca. Aprenda a criar uma voz única, mensagens consistentes e identidade linguística que diferencia você da concorrência.",
       image: "/ebooks/aurea_ia_vol3.png",
       pages: 130,
-      format: "PDF"
+      format: "PDF",
+      price: "R$ 27,00",
+      link: "https://mpago.la/1EJZ2Ly"
     },
     {
       id: 4,
@@ -84,7 +90,7 @@ export default function Produtos() {
       price: "R$ 27,00",
       pages: 180,
       format: "PDF",
-      link: "#MERCADO_PAGO_LINK_VOL4"
+      link: "https://mpago.la/1cXvgke"
     },
     {
       id: 5,
@@ -95,7 +101,7 @@ export default function Produtos() {
       price: "R$ 27,00",
       pages: 200,
       format: "PDF",
-      link: "#MERCADO_PAGO_LINK_VOL5"
+      link: "https://mpago.la/2CX2Crm"
     },
     {
       id: 6,
@@ -106,7 +112,7 @@ export default function Produtos() {
       price: "R$ 127,00",
       pages: "Total de 780",
       format: "PDF",
-      link: "#HOTMART_LINK_COMBO"
+      link: "https://mpago.la/2BUJ2v9"
     }
   ];
 
@@ -147,7 +153,7 @@ export default function Produtos() {
             {cursos.map((curso) => (
               <div key={curso.id} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
                 {curso.status === "Em Breve" && (
-                  <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
+                  
                 )}
                 {curso.status === "Disponível" && (
                   <div className="absolute top-4 right-4 bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold z-10">DISPONÍVEL</div>
@@ -198,7 +204,7 @@ export default function Produtos() {
           <div className="grid md:grid-cols-3 gap-8">
             {ebooks.map((ebook) => (
               <div key={ebook.id} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition relative">
-                <div className="absolute top-4 right-4 bg-gray-800 text-white px-3 py-1 rounded-full text-xs font-bold z-10">EM BREVE</div>
+                
                 <img src={ebook.image} alt={ebook.title} className="w-full h-64 object-cover rounded-t-2xl" />
                 <div className="p-6">
                   <h4 className="text-xl font-bold text-gray-900 mb-2">{ebook.title}</h4>
@@ -211,10 +217,18 @@ export default function Produtos() {
                     <span>{ebook.format}</span>
                   </div>
                   <div className="space-y-2">
-                    <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
-                      Em Breve
-                    </Button>
-                    <p className="text-xs text-gray-600 text-center">Disponível em breve</p>
+                    <p className="text-sm font-bold text-amber-700 mb-4">{ebook.price}</p>
+                    <div className="space-y-2">
+                      {ebook.link ? (
+                        <a href={ebook.link} target="_blank" rel="noopener noreferrer" className="w-full bg-amber-600 hover:bg-amber-700 text-white flex items-center justify-center py-2 px-4 rounded-md text-sm font-medium">
+                          Comprar Agora
+                        </a>
+                      ) : (
+                        <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed">
+                          Em Breve
+                        </Button>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

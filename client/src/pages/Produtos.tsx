@@ -47,75 +47,57 @@ export default function Produtos() {
     }
   ];
 
-  const ebooks = [
-    {
-      id: 1,
-      title: "Imersão em IA para Empresas - Volume 1",
-      description: "Descubra os segredos da comunicação que influencia decisões. Técnicas práticas e estratégias comprovadas.",
-      fullDescription: "Um guia completo sobre os princípios da persuasão, técnicas de linguagem e estratégias para influenciar decisões. Ideal para profissionais, empreendedores e comunicadores.",
-      image: "/ebooks/aurea_ia_vol1.png",
-      pages: 120,
-      format: "PDF",
-      price: "R$ 27,00",
-      link: "https://mpago.la/2aESkDx"
-    },
-    {
-      id: 2,
-      title: "Imersão em IA para Empresas - Volume 2",
-      description: "Planeje e execute uma estratégia de conteúdo que atrai, engaja e converte seu público-alvo.",
-      fullDescription: "Aprenda a criar um plano de conteúdo estratégico, identificar seu público-alvo, definir temas e medir resultados. Essencial para quem quer crescer através do marketing de conteúdo.",
-      image: "/ebooks/aurea_ia_vol2.png",
-      pages: 150,
-      format: "PDF",
-      price: "R$ 27,00",
-      link: "https://mpago.la/1fL1RQb"
-    },
-    {
-      id: 3,
-      title: "Imersão em IA para Empresas - Volume 3",
-      description: "Use a linguagem como ferramenta estratégica para construir uma marca memorável e diferenciada.",
-      fullDescription: "Descubra como a linguagem define sua marca. Aprenda a criar uma voz única, mensagens consistentes e identidade linguística que diferencia você da concorrência.",
-      image: "/ebooks/aurea_ia_vol3.png",
-      pages: 130,
-      format: "PDF",
-      price: "R$ 27,00",
-      link: "https://mpago.la/1EJZ2Ly"
-    },
-    {
-      id: 4,
-      title: "Imersão em IA para Empresas - Volume 4",
-      description: "Descubra como a Inteligência Artificial pode revolucionar sua empresa. Guia prático para implementação e estratégias.",
-      fullDescription: "Este e-book aborda a aplicação de IA em diversos setores empresariais, desde otimização de processos até a criação de novos produtos e serviços. Inclui estudos de caso e dicas de implementação.",
-      image: "/ebooks/aurea_ia_vol4.png",
-      price: "R$ 27,00",
-      pages: 180,
-      format: "PDF",
-      link: "https://mpago.la/1cXvgke"
-    },
-    {
-      id: 5,
-      title: "Imersão em IA para Empresas - Volume 5",
-      description: "Aprofunde-se nas tendências futuras da IA e como se preparar para o impacto no mercado de trabalho e nos negócios.",
-      fullDescription: "Explore as inovações mais recentes em IA, como IA generativa, ética em IA e o futuro da automação. Prepare sua empresa para os desafios e oportunidades que virão.",
-      image: "/ebooks/aurea_ia_vol5.png",
-      price: "R$ 27,00",
-      pages: 200,
-      format: "PDF",
-      link: "https://mpago.la/2CX2Crm"
-    },
-    {
-      id: 6,
-      title: "Imersão em IA para Empresas - Combo Completo",
-      description: "Adquira todos os 5 volumes da Imersão em IA para Empresas com um desconto especial. Conhecimento completo para transformar seu negócio!",
-      fullDescription: "O combo inclui os volumes 1, 2, 3, 4 e 5, cobrindo desde os fundamentos até as aplicações avançadas e tendências futuras da IA no ambiente corporativo.",
-      image: "/ebooks/aurea_ia_5_isbn.png",
-      price: "R$ 127,00",
-      pages: "Total de 780",
-      format: "PDF",
-      link: "https://mpago.la/2BUJ2v9"
-    }
-  ];
 
+  const ebooks = [
+  {
+    id: 1,
+    title: "Imersão em IA - Volume 1",
+    description: "Fundamentos e Primeiros Passos",
+    image: "/ebooks/aurea_ia_vol1.png",
+    price: 27.00,
+    preferenceId: "8726a2a7-d163-4c5d-b056-0dc98791e847"
+  },
+  {
+    id: 2,
+    title: "Imersão em IA - Volume 2",
+    description: "Produtividade Aumentada",
+    image: "/ebooks/aurea_ia_vol2.png",
+    price: 27.00,
+    preferenceId: "f130d472-415a-4e6e-98fa-181d504e8557"
+  },
+  {
+    id: 3,
+    title: "Imersão em IA - Volume 3",
+    description: "IA na Comunicação Visual",
+    image: "/ebooks/aurea_ia_vol3.png",
+    price: 27.00,
+    preferenceId: "87d85f8a-6b10-4069-bba0-0088f65bd746"
+  },
+  {
+    id: 4,
+    title: "Imersão em IA - Volume 4",
+    description: "Marketing e Growth com IA",
+    image: "/ebooks/aurea_ia_vol4.png",
+    price: 27.00,
+    preferenceId: "ebcdd8bf-4cb1-4b00-a5c4-c1a249d509ee"
+  },
+  {
+    id: 5,
+    title: "Imersão em IA - Volume 5",
+    description: "Estratégia de Negócios",
+    image: "/ebooks/aurea_ia_vol5.png",
+    price: 27.00,
+    preferenceId: "c3164fb9-57ea-4c7c-8de8-caca691eff18"
+  },
+  {
+    id: 0, 
+    title: "COMBO COMPLETO - 8 VOLUMES",
+    description: "Acesso total à série (Inclui futuros lançamentos)",
+    image: "/ebooks/aurea_ia_combo.png",
+    price: 127.00,
+    preferenceId: "3ace640c-7294-4f11-b4d1-0e71a8d2c1f0"
+  }
+];
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
